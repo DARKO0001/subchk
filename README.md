@@ -37,7 +37,7 @@ ex2.sample.com
 ### 🔹 **Step 2: Run the Script**
 Run the script and specify the number of threads:
 ```bash
-python main.py
+python3 main.py
 ```
 It will prompt you to enter the **number of threads** for concurrent execution.
 
