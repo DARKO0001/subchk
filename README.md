@@ -12,7 +12,7 @@
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/subchk.git
+git clone https://github.com/DARKO0001/subchk.git
 cd subchk
 ```
 
