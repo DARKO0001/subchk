@@ -47,7 +47,7 @@ It will prompt you to enter the **number of threads** for concurrent execution.
 ### 🔹 **Step 3: Check the Output**
 - The script will **display the status of each subdomain** in the terminal.
 - **Results are saved** in `output_results.txt`.
-🔍 To filter the output you can use tools like ```grep```
+- To filter the output you can use tools like ```grep```
 Example:
 ```bash
 cat output_results.txt | grep -E '^200' >> (any name).txt
