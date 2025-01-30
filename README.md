@@ -13,9 +13,10 @@
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/DARKO0001/subchk.git
+```
+``` bash
 cd subchk
 ```
-
 ### 2️⃣ Install Dependencies
 Install the required dependencies using:
 ```bash
@@ -46,8 +47,6 @@ It will prompt you to enter the **number of threads** for concurrent execution.
 
 Example Output:
 ```
-Using 10 threads for parallel processing...
-
 200 - http://example.sub.com
 404 - http://ex2.sample.com
 
