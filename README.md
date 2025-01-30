@@ -22,7 +22,10 @@ Install the required dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
+if not working try:
+```bash
+sudo apt install python3-requests && sudo apt install python3-colorama
+```
 ## 🎯 Usage
 
 ### 🔹 **Step 1: Prepare a Subdomains List**
