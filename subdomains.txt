@@ -1,0 +1,2 @@
+example.sub.com
+ex2.sample.com
