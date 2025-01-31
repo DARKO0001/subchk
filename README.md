@@ -72,7 +72,11 @@ Scan Finished. Results saved to 'output_results.txt'
 - Too many threads **may overload** your network—**use wisely**.
 
 ## 📄 License
-This project is open-source. Feel free to use and modify it.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 
 ---
 
