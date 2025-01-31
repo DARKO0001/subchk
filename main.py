@@ -57,10 +57,17 @@ def writer_thread(output_file, result_queue):
         result_queue.task_done()
 
 def main():
-    try:
-        num_threads = int(input("Enter the number of threads (default 10) - recommended (100): ") or 10)
-    except ValueError:
-        num_threads = 10
+    while True:
+        try:
+            num_threads = int(input("Enter the number of threads (default 10) - (Recommended 100): "))
+            if num_threads > 100:
+                print(f"{Fore.RED}!Maximum Threads 100{Style.RESET_ALL}")
+                continue
+            else:
+                break
+        except ValueError:
+            num_threads = 10
+            break
 
     print(f"\nUsing {num_threads} threads for parallel processing...")
     start_time = time.time()
