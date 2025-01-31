@@ -80,7 +80,7 @@ def main():
 {Fore.RED}     ▀▀▀▀  ▀▀▀ ·▀▀▀▀ ·▀▀▀ ▀▀▀ ··▀  ▀{Style.RESET_ALL}
 {Fore.RED}                                                                                
 {Style.RESET_ALL}
-                                               subchk ~ 𝙀𝙂𝘿𝙖𝙧𝙠𝙤  """)
+                                               subchk ~ EGDarko  """)
     print(f"{Fore.RED}!notice You should put the subdomains list in: subdomains.txt{Style.RESET_ALL}")
     print("Tool started....\n")
 
