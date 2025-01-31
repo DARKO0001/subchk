@@ -59,14 +59,14 @@ def writer_thread(output_file, result_queue):
 def main():
     while True:
         try:
-            num_threads = int(input("Enter the number of threads (default 10) - (Recommended 100): "))
+            num_threads = int(input("Enter the number of threads (default 50) - (MAX 100): "))
             if num_threads > 100:
                 print(f"{Fore.RED}!Maximum Threads 100{Style.RESET_ALL}")
                 continue
             else:
                 break
         except ValueError:
-            num_threads = 10
+            num_threads = 50
             break
 
     print(f"\nUsing {num_threads} threads for parallel processing...")
