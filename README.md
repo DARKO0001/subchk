@@ -1,8 +1,9 @@
-<img src="Preview.png" alt="My Image" width="800"/>
-
 # 🌐 subchk - Subdomain Status Checker
 
 `subchk` is a **multi-threaded subdomain status checker** that allows users to quickly check the HTTP response status of subdomains from a list. It supports **multi-threading** for faster scanning and saves the results in an output file.
+
+<img src="Preview.png" alt="My Image" width="800"/>
+
 
 ## 🚀 Features
 - **Multi-threaded processing** to improve speed.
