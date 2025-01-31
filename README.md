@@ -71,7 +71,6 @@ Scan Finished. Results saved to 'output_results.txt'
 ## ⚠️ Important Notes
 - Ensure you have **`subdomains.txt`** in the same directory.
 - If a subdomain doesn't have `http://` or `https://`, the script **automatically adds `http://`**.
-- Too many threads **may overload** your network—**use wisely**.
 - Recommended **100 Threads** for accurate result.
 
 ## 📄 License
